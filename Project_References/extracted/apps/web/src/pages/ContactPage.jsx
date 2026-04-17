@@ -9,8 +9,8 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Commission Your Piece - Sol-Kin Furniture</title>
-        <meta name="description" content="Collaborate with Javier to create bespoke furniture tailored to your vision. Contact Sol-Kin for custom commissions and personalized craftsmanship." />
+        <title>Commission Your Piece — Javier's Furniture 13:20</title>
+        <meta name="description" content="Collaborate with Javier to create bespoke furniture tailored to your vision. Contact Javier's Furniture 13:20 in Felipe Carrillo Puerto, Quintana Roo for custom commissions." />
       </Helmet>
 
       <div className="pt-20 min-h-screen bg-[hsl(var(--background))]">
@@ -24,8 +24,11 @@ const ContactPage = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 Commission your piece
               </h1>
-              <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              <p className="text-xl text-white/90 max-w-2xl mx-auto mb-3">
                 Collaborate with Javier to bring your vision to life
+              </p>
+              <p className="text-base text-white/70 italic">
+                Everything ends in 13:20
               </p>
             </motion.div>
           </div>
@@ -44,10 +47,13 @@ const ContactPage = () => {
                 Bespoke commissions, personalized craftsmanship
               </h2>
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                At Sol-Kin, we believe your furniture should be as unique as your story. Whether you envision a dining table sized perfectly for your space, a custom bookshelf that fits your collection, or a one-of-a-kind piece that reflects your personal style, Javier works closely with you from concept to completion.
+                At Javier's Furniture 13:20, we believe your furniture should be as unique as your story. Whether you envision a dining table sized perfectly for your space, a custom bookshelf that holds your life's collection, or a one-of-a-kind piece born from pure imagination — Javier works closely with you from first conversation to final installation.
+              </p>
+              <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
+                Every bespoke commission begins with a conversation. Share your vision, your space requirements, your wood preferences, and together we'll create functional art that becomes a cherished part of your home for generations to come.
               </p>
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed">
-                Every bespoke commission begins with a conversation. Share your vision, your space requirements, your wood preferences, and together we'll create functional art that becomes a cherished part of your home for generations.
+                Guided by Javier's values of Integrity and Artisanship, no corner is cut and no detail is rushed. When a piece arrives in your home, it arrives complete — 13:20.
               </p>
             </motion.div>
           </div>
@@ -86,11 +92,11 @@ const ContactPage = () => {
                       <MapPin className="w-6 h-6 text-[hsl(var(--primary))] flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-[hsl(var(--foreground))] mb-1">
-                          Sol-Kin workshop
+                          Javier's Furniture 13:20 Workshop
                         </h3>
                         <p className="text-[hsl(var(--foreground))]">
-                          2847 NW Industrial Street<br />
-                          Portland, OR 97210
+                          Felipe Carrillo Puerto<br />
+                          Quintana Roo, Mexico
                         </p>
                       </div>
                     </div>
@@ -99,10 +105,10 @@ const ContactPage = () => {
                       <Phone className="w-6 h-6 text-[hsl(var(--primary))] flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-semibold text-[hsl(var(--foreground))] mb-1">
-                          Phone
+                          WhatsApp / Phone
                         </h3>
                         <p className="text-[hsl(var(--foreground))]">
-                          (503) 555-0147
+                          Contact via email for WhatsApp details
                         </p>
                       </div>
                     </div>
@@ -114,7 +120,7 @@ const ContactPage = () => {
                           Email
                         </h3>
                         <p className="text-[hsl(var(--foreground))]">
-                          javier@solkin.furniture
+                          javier@javiersfurniture1320.com
                         </p>
                       </div>
                     </div>
