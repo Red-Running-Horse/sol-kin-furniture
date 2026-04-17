@@ -76,8 +76,8 @@ const ProductsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Handcrafted Furniture Collection - Sol-Kin</title>
-        <meta name="description" content="Explore Sol-Kin's collection of handcrafted furniture: mahogany dining tables, artisan seating, and bespoke commissions. Each piece is functional art from the Mayan Jungle." />
+        <title>Handcrafted Furniture Collection — Javier's Furniture 13:20</title>
+        <meta name="description" content="Explore Javier's Furniture 13:20 collection: mahogany dining tables, artisan seating, and bespoke commissions from Felipe Carrillo Puerto, Quintana Roo. Everything ends in 13:20." />
       </Helmet>
 
       <div className="pt-20 min-h-screen bg-[hsl(var(--background))]">
@@ -91,8 +91,11 @@ const ProductsPage = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 Artisan furniture collection
               </h1>
-              <p className="text-xl text-white/90 max-w-2xl mx-auto">
+              <p className="text-xl text-white/90 max-w-2xl mx-auto mb-3">
                 Handcrafted from sustainably sourced Mayan Jungle hardwoods
+              </p>
+              <p className="text-base text-white/70 italic">
+                Everything ends in 13:20
               </p>
             </motion.div>
           </div>
@@ -112,7 +115,7 @@ const ProductsPage = () => {
                 Mahogany masterpieces for timeless gatherings
               </h2>
               <p className="text-lg text-[hsl(var(--muted-foreground))] max-w-3xl">
-                Our dining tables are more than furniture—they're the heart of your home. Each piece features hand-carved details, rich mahogany grain, and traditional joinery that creates a centerpiece worthy of your most cherished family gatherings. Built to last generations, these tables grow more beautiful with every meal shared.
+                Our dining tables are not furniture — they are the sacred centre of your home. Sourced from sustainably managed Mayan jungle forests, each mahogany slab carries the grain patterns of centuries. Hand-carved details, traditional mortise-and-tenon joinery, and hand-rubbed finishes create pieces that will grace your family's gathering place for generations. A table built with integrity holds different energy than one made indifferently — Javier believes this, and it shows in every piece.
               </p>
             </motion.div>
 
@@ -138,7 +141,7 @@ const ProductsPage = () => {
                 Comfort meets artistry
               </h2>
               <p className="text-lg text-[hsl(var(--muted-foreground))] max-w-3xl">
-                Our seating collection—benches, chairs, and stools—showcases versatile designs where comfort meets artistic expression. Each piece is ergonomically crafted for daily use while celebrating the natural beauty of tropical hardwoods. From intimate dining chairs to statement benches, every creation balances form and function.
+                Our seating collection — benches, chairs, and stools — brings comfort and artistry together in every curve. Ergonomically crafted for daily use, each piece celebrates the natural beauty of tropical hardwoods and the skill of patient handwork. From intimate dining chairs to statement benches, every creation is an intersection of nature and human ingenuity.
               </p>
             </motion.div>
 
@@ -164,7 +167,7 @@ const ProductsPage = () => {
                 Your vision, handcrafted
               </h2>
               <p className="text-lg text-[hsl(var(--muted-foreground))] max-w-3xl">
-                Bespoke commissions are at the heart of Sol-Kin. Collaborate directly with Javier to create furniture that perfectly fits your space, style, and story. Through personalized craftsmanship, we transform your vision into unique creations that reflect your individuality. From initial sketches to final installation, every detail is tailored to you.
+                Bespoke commissions are at the heart of Javier's Furniture 13:20. Collaborate directly with Javier to create furniture that perfectly fits your space, your story, and your life. Through personalized craftsmanship guided by Javier's core values — Autonomy, Awakening, Artisanship, Creativity, and Integrity — your vision becomes a unique piece that carries meaning across generations. Every commission receives Javier's complete personal attention from first conversation to final installation.
               </p>
             </motion.div>
 

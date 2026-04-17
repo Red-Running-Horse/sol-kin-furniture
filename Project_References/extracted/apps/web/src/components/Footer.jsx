@@ -9,11 +9,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <span className="text-2xl font-bold mb-4 block" style={{ fontFamily: '"Playfair Display", serif' }}>
-              Sol-Kin
+            <span className="text-xl font-bold mb-1 block" style={{ fontFamily: '"Playfair Display", serif' }}>
+              Javier's Furniture 13:20
             </span>
+            <p className="text-xs opacity-70 mb-3 italic">Everything ends in 13:20</p>
             <p className="text-sm leading-relaxed opacity-90">
-              Functional art from the heart of the Mayan Jungle
+              Handcrafted functional art from the heart of the Mayan Jungle.
+              An initiative of Sol-Kin1320.
             </p>
           </div>
 
@@ -40,17 +42,17 @@ const Footer = () => {
           <div>
             <span className="font-semibold mb-4 block">Connect</span>
             <div className="space-y-2 text-sm opacity-90">
-              <p>2847 NW Industrial Street</p>
-              <p>Portland, OR 97210</p>
-              <p className="mt-3">(503) 555-0147</p>
-              <p>javier@solkin.furniture</p>
+              <p>Javier's Furniture 13:20 Workshop</p>
+              <p>Felipe Carrillo Puerto</p>
+              <p>Quintana Roo, Mexico</p>
+              <p className="mt-3">javier@javiersfurniture1320.com</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-[hsl(var(--primary-foreground))]/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm opacity-80">
-            © 2026 Sol-Kin Furniture. Handcrafted with passion.
+            © 2026 Javier's Furniture 13:20 · An initiative of Sol-Kin1320 · Handcrafted with passion.
           </p>
           <div className="flex gap-6 text-sm">
             <Link to="/privacy" className="opacity-80 hover:opacity-100 transition-opacity">

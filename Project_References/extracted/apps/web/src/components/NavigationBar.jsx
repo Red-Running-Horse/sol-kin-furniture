@@ -41,14 +41,14 @@ const NavigationBar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <span
-              className={`text-2xl font-bold transition-colors duration-300 ${
+              className={`text-xl font-bold transition-colors duration-300 ${
                 isScrolled
                   ? 'text-[hsl(var(--foreground))]'
                   : 'text-white'
               }`}
               style={{ fontFamily: '"Playfair Display", serif' }}
             >
-              Sol-Kin
+              Javier's Furniture <span className="text-[hsl(var(--accent))]">13:20</span>
             </span>
           </Link>
 
@@ -91,7 +91,7 @@ const NavigationBar = () => {
               <SheetHeader className="mb-8">
                 <SheetTitle className="text-left">
                   <span className="text-2xl font-bold text-[hsl(var(--foreground))]" style={{ fontFamily: '"Playfair Display", serif' }}>
-                    Sol-Kin
+                    Javier's Furniture <span className="text-[hsl(var(--accent))]">13:20</span>
                   </span>
                 </SheetTitle>
               </SheetHeader>

@@ -7,27 +7,27 @@ import StoreLocationsGrid from '@/components/StoreLocationsGrid.jsx';
 const StoreLocatorPage = () => {
   const locations = [
     {
-      storeName: 'Sol-Kin Portland Workshop',
-      address: '2847 NW Industrial Street, Portland, OR 97210',
-      hours: 'Mon-Fri: 8:00 AM - 6:00 PM, Sat: 10:00 AM - 4:00 PM'
+      storeName: "Javier's Furniture 13:20 — Primary Workshop",
+      address: 'Felipe Carrillo Puerto, Quintana Roo, Mexico',
+      hours: 'Mon-Fri: 8:00 AM - 6:00 PM · Sat: 10:00 AM - 4:00 PM · Sun: Closed'
     },
     {
-      storeName: 'Sol-Kin Seattle Showroom',
-      address: '1523 Pike Place, Seattle, WA 98101',
-      hours: 'Mon-Sat: 10:00 AM - 7:00 PM, Sun: 11:00 AM - 5:00 PM'
+      storeName: "Javier's Furniture 13:20 — Tulum Showroom",
+      address: 'Tulum, Quintana Roo, Mexico',
+      hours: 'Mon-Sat: 10:00 AM - 6:00 PM · Sun: By appointment'
     },
     {
-      storeName: 'Sol-Kin San Francisco Gallery',
-      address: '892 Valencia Street, San Francisco, CA 94110',
-      hours: 'Tue-Sat: 11:00 AM - 6:00 PM, Sun-Mon: Closed'
+      storeName: "Javier's Furniture 13:20 — Bacalar Gallery",
+      address: 'Bacalar, Quintana Roo, Mexico',
+      hours: 'Fri-Sun: 10:00 AM - 5:00 PM · Other days: By appointment'
     }
   ];
 
   return (
     <>
       <Helmet>
-        <title>Visit Our Locations - Sol-Kin Furniture</title>
-        <meta name="description" content="Experience Sol-Kin's artisan craftsmanship in person. Visit our workshops and showrooms in Portland, Seattle, and San Francisco to see, touch, and feel the quality." />
+        <title>Visit Our Workshop — Javier's Furniture 13:20, Quintana Roo</title>
+        <meta name="description" content="Experience Javier's Furniture 13:20 in person at our workshop in Felipe Carrillo Puerto, Quintana Roo. See, touch, and feel the artisan quality of handcrafted Mayan jungle furniture." />
       </Helmet>
 
       <div className="pt-20 min-h-screen bg-[hsl(var(--background))]">
@@ -41,8 +41,11 @@ const StoreLocatorPage = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 Experience craftsmanship in person
               </h1>
-              <p className="text-xl text-white/90 max-w-2xl mx-auto">
-                Visit our locations to see, touch, and feel the artisan quality
+              <p className="text-xl text-white/90 max-w-2xl mx-auto mb-3">
+                Visit our workshop and showrooms in Quintana Roo, Mexico
+              </p>
+              <p className="text-base text-white/70 italic">
+                Everything ends in 13:20
               </p>
             </motion.div>
           </div>
@@ -61,10 +64,10 @@ const StoreLocatorPage = () => {
                 Connect with Javier's work and philosophy
               </h2>
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                There's something irreplaceable about experiencing handcrafted furniture in person. When you visit a Sol-Kin location, you can run your hands across the smooth mahogany grain, feel the weight and solidity of traditional joinery, and understand the artisan heritage that goes into every piece.
+                There is something irreplaceable about experiencing handcrafted furniture in person. When you visit a Javier's Furniture 13:20 location, you can run your hands across smooth mahogany grain, feel the weight and solidity of traditional joinery, and sense the intention woven into every curve and joint.
               </p>
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed">
-                Our workshops and showrooms are destinations where you can connect with Javier's philosophy of creating functional art from sustainably sourced Mayan Jungle hardwoods. Whether you're exploring our collection or discussing a custom commission, we invite you to experience the quality that sets Sol-Kin apart.
+                Our workshop and showrooms in Quintana Roo are destinations where you can connect with Javier's philosophy of creating functional art from sustainably sourced Mayan Jungle hardwoods. Whether you're exploring the collection, discussing a custom commission, or simply experiencing the quality firsthand — we welcome you.
               </p>
             </motion.div>
           </div>
@@ -82,7 +85,7 @@ const StoreLocatorPage = () => {
                 Our locations
               </h2>
               <p className="text-lg text-[hsl(var(--muted-foreground))] max-w-3xl mx-auto">
-                We welcome you to visit our workshops and showrooms. Appointments are recommended for personalized consultations and to ensure Javier or a senior craftsperson is available to discuss your project.
+                We welcome you to visit our workshop and showrooms in Quintana Roo. Appointments are recommended for personalized consultations and to ensure Javier is available to discuss your vision in person.
               </p>
             </motion.div>
 

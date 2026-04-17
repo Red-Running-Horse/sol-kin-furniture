@@ -84,8 +84,8 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Sol-Kin Furniture - Handcrafted from the Mayan Jungle</title>
-        <meta name="description" content="Where artisan craftsmanship meets functional art. Discover handcrafted furniture born from the Mayan Jungle, created by master craftsman Javier." />
+        <title>Javier's Furniture 13:20 — Handcrafted from the Mayan Jungle</title>
+        <meta name="description" content="Where artisan craftsmanship meets spiritual purpose. Discover handcrafted furniture born from the Mayan Jungle, created by master craftsman Javier. Everything ends in 13:20." />
       </Helmet>
 
       {/* Hero Section */}
@@ -109,8 +109,11 @@ const HomePage = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6" style={{ letterSpacing: '-0.02em' }}>
               Handcrafted furniture born from the Mayan Jungle
             </h1>
-            <p className="text-xl md:text-2xl text-white/95 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Where artisan craftsmanship meets functional art. Each piece tells a story of passion, heritage, and timeless quality.
+            <p className="text-xl md:text-2xl text-white/95 mb-4 max-w-3xl mx-auto leading-relaxed">
+              Where artisan craftsmanship meets sacred purpose. Each piece tells a story of passion, heritage, and timeless quality.
+            </p>
+            <p className="text-base md:text-lg text-white/70 mb-12 italic">
+              Everything ends in 13:20
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/products">
@@ -147,8 +150,17 @@ const HomePage = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--foreground))] mb-6">
                 From the heart of the Mayan Jungle
               </h2>
+              <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-4">
+                Javier's journey began not with learning something new, but with remembering what was always known. Raised where the jungle speaks and ancient trees hold centuries of wisdom, he discovered a simple truth — wood is not just material, but consciousness taking form.
+              </p>
+              <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-4">
+                His path moved through years of struggle and profound inner work. And through it all, the hands kept working. The wood kept speaking. The craft never stopped calling.
+              </p>
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                Javier's journey began deep in the Mayan Jungle, where he discovered the extraordinary beauty of tropical hardwoods. Driven by a passion for sustainable sourcing and fine woodworking, he founded Sol-Kin to transform these remarkable materials into functional art. Each piece reflects his commitment to artisan craftsmanship, honoring both the natural character of the wood and the heritage of traditional techniques. What emerges is furniture that transcends utility—heirloom creations that carry the warmth of the jungle and the soul of the craftsman.
+                Today, from his workshop in Felipe Carrillo Puerto, Quintana Roo, Javier creates furniture that is far more than functional. Every piece is a prayer made visible — a remembrance that beauty matters, that handcraft honors the sacred, and that the objects we live with shape who we become.
+              </p>
+              <p className="text-sm text-[hsl(var(--muted-foreground))] italic mb-6">
+                Javier's Furniture 13:20 · An initiative of Sol-Kin1320
               </p>
               <Link to="/about">
                 <Button variant="primary">
@@ -166,7 +178,7 @@ const HomePage = () => {
             >
               <img 
                 src="https://images.unsplash.com/photo-1603789766555-6491f3ada66f" 
-                alt="Artisan craftsmanship at Sol-Kin workshop"
+                alt="Artisan craftsmanship at Javier's Furniture 13:20 workshop"
                 className="w-full h-full object-cover"
               />
             </motion.div>
