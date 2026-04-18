@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "npm run dev --prefix Project_References/extracted",
+    "build": "npm run build --prefix Project_References/extracted",
+    "start": "node Project_References/extracted/server.js",
     "upload-images": "node scripts/upload-to-cloudinary.js"
   },
   "dependencies": {
