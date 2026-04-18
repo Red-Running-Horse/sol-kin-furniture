@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <span className="text-2xl font-bold mb-4 block" style={{ fontFamily: '"Playfair Display", serif' }}>
-              Sol-Kin
+              Javier's Furniture
             </span>
             <p className="text-sm leading-relaxed opacity-90">
               Functional art from the heart of the Mayan Jungle
@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="border-t border-[hsl(var(--primary-foreground))]/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm opacity-80">
-            © 2026 Sol-Kin Furniture. Handcrafted with passion.
+            © 2026 Javier's Furniture. Handcrafted with passion.
           </p>
           <div className="flex gap-6 text-sm">
             <Link to="/privacy" className="opacity-80 hover:opacity-100 transition-opacity">

@@ -7,8 +7,8 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About Sol-Kin - Artisan Craftsmanship from the Mayan Jungle</title>
-        <meta name="description" content="Discover Javier's journey from the Mayan Jungle to creating functional art. Learn about Sol-Kin's commitment to sustainable sourcing, fine woodworking, and artisan heritage." />
+        <title>About Javier's Furniture - Artisan Craftsmanship from the Mayan Jungle</title>
+        <meta name="description" content="Discover Javier's journey from the Mayan Jungle to creating functional art. Learn about Javier's Furniture commitment to sustainable sourcing, fine woodworking, and artisan heritage." />
       </Helmet>
 
       <div className="pt-20 min-h-screen bg-[hsl(var(--background))]">
@@ -51,7 +51,7 @@ const AboutPage = () => {
                 </p>
 
                 <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                  Sol-Kin was born from this journey—a workshop where the warmth of the jungle meets the precision of artisan craftsmanship. The name itself reflects this duality: "Sol" for the sun that nurtures the forest, and "Kin" for kinship with nature and tradition.
+                  Javier's Furniture was born from this journey—a workshop where the warmth of the jungle meets the precision of artisan craftsmanship, creating pieces that carry the soul of the Mayan forest.
                 </p>
               </motion.div>
 
@@ -64,7 +64,7 @@ const AboutPage = () => {
               >
                 <img 
                   src="https://images.unsplash.com/photo-1603789766555-6491f3ada66f" 
-                  alt="Javier crafting furniture in the Sol-Kin workshop"
+                  alt="Javier crafting furniture in his workshop"
                   className="w-full h-full object-cover"
                 />
               </motion.div>
@@ -78,11 +78,11 @@ const AboutPage = () => {
               className="max-w-4xl mx-auto"
             >
               <h3 className="text-2xl font-semibold text-[hsl(var(--foreground))] mb-6">
-                The Sol-Kin philosophy
+                The Javier's Furniture philosophy
               </h3>
 
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                At Sol-Kin, we believe furniture should transcend mere utility. Each piece we create is an intersection of nature and human ingenuity—functional art that carries the soul of the forest and the dedication of the craftsman. Our philosophy rests on three pillars: sustainable sourcing, artisan heritage, and timeless quality.
+                At Javier's Furniture, we believe furniture should transcend mere utility. Each piece we create is an intersection of nature and human ingenuity—functional art that carries the soul of the forest and the dedication of the craftsman. Our philosophy rests on three pillars: sustainable sourcing, artisan heritage, and timeless quality.
               </p>
 
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
@@ -98,7 +98,7 @@ const AboutPage = () => {
               </h3>
 
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                Every Sol-Kin piece is handcrafted in our workshop, where modern precision tools work in harmony with traditional hand techniques. Javier oversees each stage of creation, from initial design sketches to final hand-rubbed finishes. This hands-on approach ensures that every detail meets our exacting standards.
+                Every Javier's Furniture piece is handcrafted in our workshop, where modern precision tools work in harmony with traditional hand techniques. Javier oversees each stage of creation, from initial design sketches to final hand-rubbed finishes. This hands-on approach ensures that every detail meets our exacting standards.
               </p>
 
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
@@ -110,11 +110,11 @@ const AboutPage = () => {
               </h3>
 
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                When you bring a Sol-Kin piece into your home, you're not just acquiring furniture—you're welcoming a fragment of the Mayan Jungle, transformed through artisan skill into functional art. The rich mahogany grain carries memories of tropical rains and ancient sunlight. The smooth curves reflect hours of careful shaping and sanding. The joinery speaks to a tradition of craftsmanship that values permanence over convenience.
+                When you bring a Javier's Furniture piece into your home, you're not just acquiring furniture—you're welcoming a fragment of the Mayan Jungle, transformed through artisan skill into functional art. The rich mahogany grain carries memories of tropical rains and ancient sunlight. The smooth curves reflect hours of careful shaping and sanding. The joinery speaks to a tradition of craftsmanship that values permanence over convenience.
               </p>
 
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                This is the Sol-Kin promise: furniture that honors its origins, celebrates the craftsman's art, and becomes an integral part of your life's most meaningful moments.
+                This is the Javier's Furniture promise: furniture that honors its origins, celebrates the craftsman's art, and becomes an integral part of your life's most meaningful moments.
               </p>
             </motion.div>
           </div>

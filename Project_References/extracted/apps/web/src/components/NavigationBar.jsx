@@ -48,9 +48,8 @@ const NavigationBar = () => {
               }`}
               style={{ fontFamily: '"Playfair Display", serif' }}
             >
-              Sol-Kin
+              Javier's Furniture
             </span>
-          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -91,7 +90,7 @@ const NavigationBar = () => {
               <SheetHeader className="mb-8">
                 <SheetTitle className="text-left">
                   <span className="text-2xl font-bold text-[hsl(var(--foreground))]" style={{ fontFamily: '"Playfair Display", serif' }}>
-                    Sol-Kin
+                    Javier's Furniture
                   </span>
                 </SheetTitle>
               </SheetHeader>

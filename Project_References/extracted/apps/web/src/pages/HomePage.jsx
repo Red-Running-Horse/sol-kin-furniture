@@ -59,7 +59,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Sol-Kin Furniture - Handcrafted from the Mayan Jungle</title>
+        <title>Javier's Furniture - Handcrafted from the Mayan Jungle</title>
         <meta name="description" content="Where artisan craftsmanship meets functional art. Discover handcrafted furniture born from the Mayan Jungle, created by master craftsman Javier." />
       </Helmet>
 
@@ -123,7 +123,7 @@ const HomePage = () => {
                 From the heart of the Mayan Jungle
               </h2>
               <p className="text-lg text-[hsl(var(--foreground))] leading-relaxed mb-6">
-                Javier's journey began deep in the Mayan Jungle, where he discovered the extraordinary beauty of tropical hardwoods. Driven by a passion for sustainable sourcing and fine woodworking, he founded Sol-Kin to transform these remarkable materials into functional art. Each piece reflects his commitment to artisan craftsmanship, honoring both the natural character of the wood and the heritage of traditional techniques. What emerges is furniture that transcends utility—heirloom creations that carry the warmth of the jungle and the soul of the craftsman.
+                Javier's journey began deep in the Mayan Jungle, where he discovered the extraordinary beauty of tropical hardwoods. Driven by a passion for sustainable sourcing and fine woodworking, he founded Javier's Furniture to transform these remarkable materials into functional art. Each piece reflects his commitment to artisan craftsmanship, honoring both the natural character of the wood and the heritage of traditional techniques. What emerges is furniture that transcends utility—heirloom creations that carry the warmth of the jungle and the soul of the craftsman.
               </p>
               <Link to="/about">
                 <Button variant="primary">
@@ -141,7 +141,7 @@ const HomePage = () => {
             >
               <img 
                 src="https://images.unsplash.com/photo-1603789766555-6491f3ada66f" 
-                alt="Artisan craftsmanship at Sol-Kin workshop"
+                alt="Artisan craftsmanship at Javier's Furniture workshop"
                 className="w-full h-full object-cover"
               />
             </motion.div>

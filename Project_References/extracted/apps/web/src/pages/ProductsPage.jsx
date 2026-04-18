@@ -76,8 +76,8 @@ const ProductsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Handcrafted Furniture Collection - Sol-Kin</title>
-        <meta name="description" content="Explore Sol-Kin's collection of handcrafted furniture: mahogany dining tables, artisan seating, and bespoke commissions. Each piece is functional art from the Mayan Jungle." />
+        <title>Handcrafted Furniture Collection - Javier's Furniture</title>
+        <meta name="description" content="Explore Javier's Furniture collection of handcrafted furniture: mahogany dining tables, artisan seating, and bespoke commissions. Each piece is functional art from the Mayan Jungle." />
       </Helmet>
 
       <div className="pt-20 min-h-screen bg-[hsl(var(--background))]">
@@ -164,7 +164,7 @@ const ProductsPage = () => {
                 Your vision, handcrafted
               </h2>
               <p className="text-lg text-[hsl(var(--muted-foreground))] max-w-3xl">
-                Bespoke commissions are at the heart of Sol-Kin. Collaborate directly with Javier to create furniture that perfectly fits your space, style, and story. Through personalized craftsmanship, we transform your vision into unique creations that reflect your individuality. From initial sketches to final installation, every detail is tailored to you.
+                Bespoke commissions are at the heart of Javier's Furniture. Collaborate directly with Javier to create furniture that perfectly fits your space, style, and story. Through personalized craftsmanship, we transform your vision into unique creations that reflect your individuality. From initial sketches to final installation, every detail is tailored to you.
               </p>
             </motion.div>
 
