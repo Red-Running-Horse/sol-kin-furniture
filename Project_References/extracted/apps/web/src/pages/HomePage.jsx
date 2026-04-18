@@ -8,6 +8,7 @@ import ProductCard from '@/components/ProductCard.jsx';
 import GalleryGrid from '@/components/GalleryGrid.jsx';
 import ContactForm from '@/components/ContactForm.jsx';
 import Button from '@/components/Button.jsx';
+import { IMAGES, cloudinaryUrl } from '@/data/images.js';
 
 const HomePage = () => {
   const featuredProducts = [
@@ -17,8 +18,8 @@ const HomePage = () => {
       dimensions: '72" W x 42" D x 30" H',
       price: '2,847',
       description: 'Hand-carved centerpiece featuring rich mahogany grain and traditional joinery',
-      image: 'https://images.unsplash.com/photo-1438999713824-dcbab75949fb',
-      gallery: ['https://images.unsplash.com/photo-1438999713824-dcbab75949fb']
+      image: cloudinaryUrl(IMAGES.PRODUCTS.diningTable1, 'w_800,h_600,c_fill,q_auto,f_auto'),
+      gallery: [cloudinaryUrl(IMAGES.PRODUCTS.diningTable1), cloudinaryUrl(IMAGES.PRODUCTS.diningTable2)]
     },
     {
       productName: 'Artisan Bench',
@@ -26,8 +27,8 @@ const HomePage = () => {
       dimensions: '60" W x 18" D x 18" H',
       price: '1,523',
       description: 'Versatile seating where comfort meets artistic expression',
-      image: 'https://images.unsplash.com/photo-1504374629924-2a46bd83e55d',
-      gallery: ['https://images.unsplash.com/photo-1504374629924-2a46bd83e55d']
+      image: cloudinaryUrl(IMAGES.PRODUCTS.bench, 'w_800,h_600,c_fill,q_auto,f_auto'),
+      gallery: [cloudinaryUrl(IMAGES.PRODUCTS.bench)]
     },
     {
       productName: 'Custom Dining Set',
@@ -35,8 +36,8 @@ const HomePage = () => {
       dimensions: 'Bespoke Dimensions',
       price: '4,200',
       description: 'Your vision brought to life through personalized craftsmanship',
-      image: 'https://images.unsplash.com/photo-1603789766555-6491f3ada66f',
-      gallery: ['https://images.unsplash.com/photo-1603789766555-6491f3ada66f']
+      image: cloudinaryUrl(IMAGES.PRODUCTS.finishedPiece, 'w_800,h_600,c_fill,q_auto,f_auto'),
+      gallery: [cloudinaryUrl(IMAGES.PRODUCTS.finishedPiece)]
     },
     {
       productName: 'Artisan Coffee Table',
@@ -44,42 +45,16 @@ const HomePage = () => {
       dimensions: '48" W x 28" D x 18" H',
       price: '1,247',
       description: 'Functional art piece showcasing natural wood character',
-      image: null
+      image: cloudinaryUrl(IMAGES.PRODUCTS.coffeeTable, 'w_800,h_600,c_fill,q_auto,f_auto'),
+      gallery: [cloudinaryUrl(IMAGES.PRODUCTS.coffeeTable)]
     }
   ];
 
-  const galleryItems = [
-    {
-      title: 'Mahogany Dining Masterpiece',
-      description: 'Hand-carved details create a timeless centerpiece for family gatherings',
-      image: 'https://images.unsplash.com/photo-1438999713824-dcbab75949fb'
-    },
-    {
-      title: 'Artisan Craftsmanship',
-      description: 'Every piece reflects Javier\'s passion for fine woodworking',
-      image: 'https://images.unsplash.com/photo-1603789766555-6491f3ada66f'
-    },
-    {
-      title: 'Functional Art',
-      description: 'Where comfort meets artistic expression in every detail',
-      image: 'https://images.unsplash.com/photo-1504374629924-2a46bd83e55d'
-    },
-    {
-      title: 'Mayan Jungle Woods',
-      description: 'Sustainably sourced tropical hardwoods with rich character',
-      image: null
-    },
-    {
-      title: 'Bespoke Commissions',
-      description: 'Collaborate with Javier to create your unique vision',
-      image: null
-    },
-    {
-      title: 'Timeless Quality',
-      description: 'Heirloom pieces built to last generations',
-      image: null
-    }
-  ];
+  const galleryItems = IMAGES.GALLERY.map(item => ({
+    title: item.title,
+    description: item.description,
+    image: cloudinaryUrl(item.id, 'w_600,h_600,c_fill,q_auto,f_auto')
+  }));
 
   return (
     <>
@@ -93,7 +68,7 @@ const HomePage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1698786030420-f38e5b98c127)',
+            backgroundImage: `url(${cloudinaryUrl(IMAGES.HERO.main, 'w_1920,h_1080,c_fill,q_auto,f_auto')})`,
             backgroundPosition: 'center'
           }}
         >
